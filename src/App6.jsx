@@ -11,6 +11,8 @@ import NameForm from "./folder3/NameForm";
 import RequestForm from "./folder3/RequestForm";
 import FruitSelect from "./folder3/FruitSelect";
 import Reservation from "./folder3/Reservation";
+import Parent from "./folder3/Parent";
+import Parent2 from "./folder3/Parent2";
 
 function App6() {
     return (
@@ -37,6 +39,10 @@ function App6() {
             <FruitSelect/>
             <hr/>
             <Reservation/>
+            <hr/>
+            <Parent/>
+            <hr/>
+            <Parent2/>
         </div>
     );
 }
