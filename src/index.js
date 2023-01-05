@@ -7,6 +7,7 @@ import App2 from "./App2";
 import App3 from "./App3";
 import App5 from "./App5";
 import CloneApp from "./clone/CloneApp";
+import App6 from "./App6";
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
@@ -18,7 +19,8 @@ root.render(
         {/*<App2 />*/}
         {/*<App3 />*/}
         {/*<CloneApp />*/}
-        <App5 />
+        {/*<App5 />*/}
+        <App6 />
     </React.StrictMode>
 );
 
