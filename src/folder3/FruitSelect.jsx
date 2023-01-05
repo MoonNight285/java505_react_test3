@@ -8,12 +8,22 @@ function FruitSelect(props) {
         setValue(e.target.value);
     }
     const handleChange2 = (e) => {
+        // select box의 자식 태그인 option 태그를 모두 가져온다.
+        const options = e.target.options;
+        
+        // 선택된 데이터를 저장하기 위한 배열
         let items = [];
         
-        for (let i = 0; i < e.target.value.length; ++i) {
-            items.push(e.target.value[i]);
+        // option의 크기만큼 반복
+        for (let i = 0; i < options.length; ++i) {
+            // option 태그 중 선택된 태그인지 아닌지 확인
+            if (options[i].selected) {
+                // 선택된 태그의 내용만 배열에 저장
+                items.push(options[i].value);
+            }
         }
         
+        // setState() 함수를 통해서 state를 업데이트
         setValue2(items);
     }
     
