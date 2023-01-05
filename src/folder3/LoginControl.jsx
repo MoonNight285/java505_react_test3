@@ -1,5 +1,6 @@
 import React, {useState} from "react";
 import Greeting from "./Greeting";
+import UserStatus from "./UserStatus";
 
 function LoginButton(props) {
     return (
@@ -40,6 +41,8 @@ function LoginControl() {
             <Greeting isLogginedIn={isLoggedIn} />
             {/* 엘리먼트 변수에 저장된 리엑트 컴포넌트가 출력된다.*/}
             {button}
+            {isLoggedIn ? <LoginButton onClick={handleLogoutClick} /> : <LoginButton onClick={handleLoginClick} />}
+            <UserStatus isLoggedIn={isLoggedIn} />
         </div>
     );
 }
