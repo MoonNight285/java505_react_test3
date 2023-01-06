@@ -13,6 +13,7 @@ import App7 from "./App7";
 import App8 from "./folder4/App8";
 import App9 from "./folder4/App9";
 import DarkOrLight from "./folder4/DarkOrLight";
+import App11 from "./folder4/App11";
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
@@ -31,6 +32,7 @@ root.render(
         {/*<App8 />*/}
         <App9 />
         <DarkOrLight />
+        <App11 />
     </React.StrictMode>
 );
 
