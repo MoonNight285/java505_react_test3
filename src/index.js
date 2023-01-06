@@ -28,11 +28,11 @@ root.render(
         {/*<App5 />*/}
         {/*<App6 />*/}
         {/*<MyApp />*/}
-        {/*<App7 />*/}
+        <App7 />
         {/*<App8 />*/}
-        <App9 />
-        <DarkOrLight />
-        <App11 />
+        {/*<App9 />*/}
+        {/*<DarkOrLight />*/}
+        {/*<App11 />*/}
     </React.StrictMode>
 );
 
