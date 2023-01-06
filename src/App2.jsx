@@ -5,6 +5,9 @@ import Header from "./Header";
 import Navigate from "./Navigate";
 import PhotoInfo from "./PhotoInfo";
 import LinkList from "./LinkList";
+import Board from "./homework/Board";
+import About from "./homework/About";
+import {BrowserRouter, Routes, Route, Outlet} from "react-router-dom";
 
 const styles = {
     fakeImg : {

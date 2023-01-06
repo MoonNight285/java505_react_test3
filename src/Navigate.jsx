@@ -1,4 +1,5 @@
 import React from "react";
+import {Link} from "react-router-dom";
 
 function Navigate() {
     return (
@@ -6,16 +7,16 @@ function Navigate() {
             <div className={"container-fluid"}>
                 <ul className={"navbar-nav"}>
                     <li className={"nav-item"}>
-                        <a className={"nav-link active"} href={"#"}>Active</a>
+                        <Link className={"nav-link"} to={"/"}>main</Link>
+                        {/*<a className={"nav-link active"} href={"#"}>main</a>*/}
                     </li>
                     <li className={"nav-item"}>
-                        <a className={"nav-link active"} href={"#"}>Link</a>
+                        <Link className={"nav-link"} to={"/board"}>board</Link>
+                        {/*<a className={"nav-link active"} href={"#"}>board</a>*/}
                     </li>
                     <li className={"nav-item"}>
-                        <a className={"nav-link active"} href={"#"}>Link</a>
-                    </li>
-                    <li className={"nav-item"}>
-                        <a className={"nav-link active"} href={"#"}>Disabled</a>
+                        <Link className={"nav-link"} to={"/about"}>about</Link>
+                        {/*<a className={"nav-link active"} href={"#"}>about</a>*/}
                     </li>
                 </ul>
             </div>
