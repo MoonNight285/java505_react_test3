@@ -15,6 +15,7 @@ import App9 from "./folder4/App9";
 import DarkOrLight from "./folder4/DarkOrLight";
 import App11 from "./folder4/App11";
 import MyRouter from "./MyRouter";
+import App18 from "./App18";
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
@@ -34,7 +35,8 @@ root.render(
         {/*<App9 />*/}
         {/*<DarkOrLight />*/}
         {/*<App11 />*/}
-        <MyRouter />
+        {/*<MyRouter />*/}
+        <App18 />
     </React.StrictMode>
 );
 
